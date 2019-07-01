@@ -1,0 +1,94 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Exotic Rentals</title>
+    <link href="CSS/RentalStyleSheet.css" rel="stylesheet" />
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            font-size: xx-large;
+            text-align: left;
+            background-color: #353535;
+            color: #22c81a;
+            width: 485px;
+        }
+        .auto-style2 {
+            width: 4px;
+        }
+        .auto-style3 {
+            color: #FFFFFF;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div>
+            <header>
+                <div>
+                    <table >
+                        <tr style="height: 100px;">
+                            <td>
+                               <a href="Default.aspx"> <img src="images/logo.png" style="height: 83px; width: 85px" /></a>
+                            </td>
+
+
+
+                            <td id="Main" class="auto-style1">
+                              <a href="Default.aspx">  <strong>EXTRA<span class="auto-style3">TERRESTRIAL</span>
+                                    RENTALS</strong></a>
+
+                            </td>
+
+
+
+                            <td class="auto-style2">
+                                <ul id="Menu">
+                                    <li><a href="Default.aspx">HOME</a></li>
+                                    <li><a href="Aboutus.aspx">ABOUT US</a></li>
+                                    <li><a href="Inventory.aspx">CARS</a></li>
+                                    <li><a href="SignUp.aspx">SIGN UP</a></li>
+                                    <li><a href="Login.aspx">LOGIN</a></li>
+                                    <li><a href="Profile.aspx">PROFILE</a></li>
+
+                                </ul>
+                            </td>  
+                        </tr> 
+                    </table>
+                                               
+                </div>
+            </header>
+        </div>
+
+
+
+
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+
+        
+                    </asp:ContentPlaceHolder>
+               
+                    <strong>BUSINESS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TRAVEL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ECO-FRIENDLY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LUXURY</strong>
+        <div>
+            <p><a href="Default.aspx">HOME</a>&nbsp; | &nbsp;<a href="AboutUs.aspx">ABOUT US</a>&nbsp; | &nbsp;<a href="Inventory.aspx">CARS</a>&nbsp; | &nbsp;<a href="SignUp.aspx">SIGN UP</a>&nbsp; | &nbsp;<a href="Login.aspx">LOGIN</a>&nbsp; | &nbsp;<a href="Profile.aspx">PROFILE</a>&nbsp; | &nbsp;<a href="Sitemap.aspx">SITE MAP</a></p>
+        </div>
+
+        <footer>
+            &copy 2019, Exotic Rentals LLC, All Rights Reserved
+            <br />
+            <br />
+            <a href="AdminLogIn.aspx">Admin Log In</a>
+            <br />
+            <asp:Label ID="lblAdmin" runat="server"></asp:Label>
+        </footer>
+        
+    </div>
+    </form>
+</body>
+</html>

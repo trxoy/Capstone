@@ -1,0 +1,319 @@
+﻿body {    background-color: #353535;
+          font-family:Consolas;
+
+          text-align:center;
+          width:100%;
+          color: white;
+}
+
+.backgroundimage{
+    width:80%;
+    z-index:-999;
+}
+
+a {
+    color:#22c81a;
+
+}
+a :hover {
+    color:white
+}
+
+header{
+    
+}
+
+h2{
+    font-size:50px;
+    font-family:Consolas;
+    border-bottom: 1px solid black;
+}
+
+
+
+#Main {
+        background-color: #353535;
+}
+#Menu {
+    width: 975px;
+    height: 40px;
+
+}
+#Menu li{
+    width: 131px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    font-size: 18px;
+    list-style: none;
+    
+}
+#Menu li a {
+    color: #ffffff;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight:100;
+
+
+}
+
+#Menu li a:hover {
+    color:blue;
+    font-size: 22px;
+
+}
+
+#Lower {
+    color: #ffffff;
+    vertical-align:bottom;
+
+}
+
+footer {
+    color: #a0a0a0;
+    text-align:center;
+}
+
+.centerdiv{
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+
+}
+
+.centerdiv2{
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+
+}
+/* Container holding the image and the text */
+
+.container {
+
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    display:inline-block;
+     position: relative;
+       float:none;
+
+}
+
+
+
+
+/* Bottom right text */
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 82.5%;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.text-block2 {
+  position: absolute;
+  bottom: 20px;
+  right: 50%;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.text-block3 {
+  position: absolute;
+  bottom: 20px;
+  right: 16.5%;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.mydatagrid2
+{
+	width: 80%;
+	border: solid 2px black;
+	min-width: 15%;
+    margin-left:auto; 
+    margin-right:auto;
+}
+.mydatagrid
+{
+	width: 80%;
+	border: solid 2px black;
+	min-width: 80%;
+    margin-left:auto; 
+    margin-right:auto;
+}
+.header
+{
+	background-color: #000;
+	font-family: Arial;
+	color: White;
+	height: 25px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.rows
+{
+	background-color: #fff;
+	font-family: Arial;
+	font-size: 14px;
+	color: #000;
+	min-height: 25px;
+	text-align: left;
+}
+.rows:hover
+{
+	background-color: #22c81a;
+}
+
+.mydatagrid a /** FOR THE PAGING ICONS  **/
+{
+	background-color: Transparent;
+	padding: 5px 5px 5px 5px;
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.mydatagrid a:hover /** FOR THE PAGING ICONS  HOVER STYLES**/
+{
+	background-color: #fff;
+	color: #000;
+}
+.mydatagrid span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/
+{
+	
+	padding: 5px 5px 5px 5px;
+	background-color: #000;
+	color: #fff;
+}
+.pager
+{
+		background-color: #22c81a;
+	font-family: Arial;
+	color: White;
+	height: 30px;
+	text-align: left;
+}
+
+.mydatagrid td
+{
+	padding: 5px;
+}
+.mydatagrid th
+{
+	padding: 5px;
+}
+
+.bordereffect
+{
+	color: white;
+	background-color: Transparent;
+	height: 50px;
+	width: 340px;
+	padding: 10px;
+	border: solid 2px black;
+	font-size: 20px;
+	font-weight: lighter;
+	font-family: Consolas;
+	-moz-border-radius: 0px 0px 0px 0px;
+	border-radius: 0px 0px 0px 0px;
+}
+
+.bordereffect:hover
+{
+	color: #22c81a;
+	border: solid 5px #fff;
+	cursor:pointer;
+}
+table{
+    margin: 0 auto;
+}
+table.purpleHorizon {
+  border: 4px solid #909090;
+  background-color: #555555;
+  width: 760px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.purpleHorizon td, table.purpleHorizon th {
+  border: 1px solid #555555;
+  padding: 5px 2px;
+}
+table.purpleHorizon tbody td {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+table.purpleHorizon tr:nth-child(even) {
+  background: #000000;
+}
+table.purpleHorizon thead {
+  background: #22C81A;
+    text-align: center;
+}
+table.purpleHorizon thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: left;
+}
+table.purpleHorizon tfoot td {
+  font-size: 13px;
+}
+table.purpleHorizon tfoot .links {
+  text-align: right;
+}
+table.purpleHorizon tfoot .links a{
+  display: inline-block;
+  background: #792396;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.tb5 {
+	border:2px solid #456879;
+	border-radius:10px;
+	height: 15px;
+	width: 150px;
+}
+table.roundedCorners { 
+
+  border: 10px solid #22C81A;
+
+  border-radius: 13px; 
+  color:black;
+  border-spacing: 0;
+  width:20%;
+  display:inline-block;
+
+  background:white;
+  }
+
+table.roundedCorners td, 
+
+table.roundedCorners th { 
+
+    padding:5px;
+
+
+  }
+
+table.roundedCorners tr:last-child > td {
+
+  border-bottom: none;
+
+}
